@@ -1,0 +1,101 @@
+.isi {
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+@media (max-width: 420px) {
+    .isi {
+        max-width: 420px;
+    }
+}
+
+.cari {
+  font-size: 24px;
+  color: gray;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panah {
+  color: black;
+  
+}
+
+.lokasi {
+  margin-top: 18px;
+}
+
+.lokasi label {
+  color: black;
+  font-size: 14px;
+}
+
+.lokasi select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 12px;
+  border: 1px solid white;
+  background: #dadada;
+}
+
+.a {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.aa {
+  margin-top: -10px;
+  color: gray;
+}
+
+.bb {
+  margin-top: 15px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  display: flex;
+}
+
+.role h1 {
+  font-size: 15px;
+  color: gray;
+}
+
+.team h1 {
+  font-size: 15px;
+  color: gray;
+}
+
+.loc h1 {
+  font-size: 15px;
+  color: gray;
+}
+
+.role {
+  color: rgb(88, 88, 255);
+  font-weight: 600;
+  width: 25%;
+}
+
+.team {
+  font-weight: 600;
+  width: 40%;
+}
+
+.loc {
+  font-weight: 600;
+  width: 35%;
+}
+
+.bb span {
+  margin: 2px 0;
+}
+
+.bbb {
+  display: flex;
+  justify-content: space-between;
+}
