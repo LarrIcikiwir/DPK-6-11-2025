@@ -3,12 +3,8 @@
     background-color: black;
     font-family: Calibri;
     color: white;
-}
-
-@media (max-width: 420px) {
-    * {
-        max-width: 420px;
-    }
+    max-width: 420px;
+    align-items: center;
 }
 
 .header {
@@ -99,3 +95,4 @@ img {
   border-radius: 20px;
 
 }
+
