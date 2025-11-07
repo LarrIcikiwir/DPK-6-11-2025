@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mikir kids</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikir Kids</title>
+  <style>
+    /* Gaya dasar halaman */
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* Gaya untuk tautan */
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 15px 40px;
+      margin: 15px;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    /* Efek hover (kilatan putih) */
+    a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+      transition: 0.5s;
+    }
+
+    a:hover::before {
+      left: 100%;
+    }
+
+    a:hover {
+      color: #000;
+      background-color: #fff;
+      box-shadow: 0 0 20px #fff, 0 0 40px #fff;
+    }
+  </style>
 </head>
 <body>
-    <a href="desain1.html">DESAIN 1</a>
-    <a href="desain3.html">DESAIN 3</a>
-    
+  <h1>Mikir Kids</h1>
+  <a href="desain1.html">DESAIN 1</a>
+  <a href="desain3.html">DESAIN 3</a>
 </body>
 </html>
+
+
