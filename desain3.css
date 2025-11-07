@@ -4,12 +4,7 @@
   background: #fff;
   font-family: Arial, sans-serif;
   color: #000;
-}
-
-@media (max-width: 420px) {
-    .isi {
-        max-width: 420px;
-    }
+  max-width: 420px;
 }
 
 .cari {
@@ -98,4 +93,5 @@
 .bbb {
   display: flex;
   justify-content: space-between;
+
 }
